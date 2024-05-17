@@ -259,7 +259,7 @@ color: #FFF;
 /* ___________________Portfolio___________________ */
 
 .section-three {
-  background-color: #f4f4fd;
+  background-color:  #eecfea;
   }
 
 .title-projects {
@@ -310,14 +310,15 @@ color: #FFF;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-row-gap: 32px; 
-column-gap: 32px; 
+row-gap: 24px; 
+column-gap: 24px; 
 
   }
 }
 
 .projects-item {  
-  width: calc((100% - 32px * 1) / 2);
+  width: calc((100% - 24px) / 2);
+  max-width: 500px;
   background-color: #ffffff;   
   margin-bottom: 10px;  
   padding: 15px;
@@ -373,6 +374,7 @@ li:focus {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 15px;
 
 }
 
@@ -444,7 +446,7 @@ width: 100%;
   align-items: center;
   color: white;
   flex-shrink: 0;
-  background-color: #585e94;    
+  background-color: #c63cf0;    
   border-radius: 50%;
   width: 150px;
   height: 150px; 
@@ -465,18 +467,18 @@ width: 100%;
 
 /* ______________Footer____________________ */
 .footer {
-  background-color: #f4f4fd;
+  background-color: #eecfea;
   padding: 100px 0 100px;
 }
 
 .footer-container {
-  background: #2e2f42;
+  background-color: #eecfea;
   display: flex;
   align-items: baseline;
 }
 
 .footer-name{
-  color: #250254;
+  color: #c63cf0; 
   font-family: Roboto;
   font-size: 32px;
   font-style: normal;
@@ -487,7 +489,7 @@ width: 100%;
 }
 
 .footer-caption{
-  color: #250254;
+  color: #c63cf0; 
   font-family: Roboto;
   font-size: 24px;
   font-style: normal;
@@ -521,13 +523,17 @@ width: 100%;
 
 }
 
+
 .footer-link{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-link:hover,
 .footer-link:focus {
-  box-shadow: 0 4px 15px rgba(88, 94, 148, 0.3), 0 6px 20px rgba(88, 94, 148, 0.2);
+  box-shadow: 0 4px 15px rgba(134, 88, 148, 0.3), 0 6px 20px rgba(88, 94, 148, 0.2);
   transform: scale(1.05);
 }
