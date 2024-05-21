@@ -54,7 +54,7 @@
 
 .nav-title{
   font-size: 24px; 
-  color: #333; 
+  color: #c63cf0; 
 
 } 
 
@@ -264,7 +264,7 @@ color: #FFF;
   }
 
 .title-projects {
-  color: #2e2f42;
+  color: #c63cf0; 
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
@@ -285,7 +285,7 @@ color: #FFF;
   object-fit: cover; 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767.98px) {
   .projects-image {
     height: 265px; 
     object-fit: cover; 
@@ -294,37 +294,32 @@ color: #FFF;
 
 .div-projects{
   margin-top: 20px;
-
+}
+.projects-list{
+  padding-right: 30px;
 }
 
-@media only screen and (max-width: 769.97px) {
-  .projects-list  {
-    display: flex;
-    flex-direction: column; 
-    width: 100%;
-   
-  }
-}
 
 @media only screen and (min-width: 768px) {
   .projects-list {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-row-gap: 24px; 
-column-gap: 24px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 24px; 
+    column-gap: 24px; 
 
   }
 }
 
+
 .projects-item {  
-  width: calc((100% - 24px) / 2);
-  max-width: 500px;
+  width: calc((100% - 24px) / 3);
+  max-width: 600px;
   background-color: #ffffff;   
   margin-bottom: 10px;  
   padding: 15px;
   height: 100%;
-  min-height: 730px;  
+  min-height: 750px;    
   text-align: center;
   border: 1px solid #444444;
   border-radius: 0px 0px 4px 4px;
@@ -332,6 +327,7 @@ column-gap: 24px;
     0px 1px 1px rgba(46, 47, 66, 0.4), 0px 2px 1px rgba(46, 47, 66, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 li:hover,
 li:focus {
@@ -343,9 +339,13 @@ li:focus {
   .projects-item  {
     display: flex;
     flex-direction: column; 
-    width: 100%;   
+    width: 100%;  
+    max-width: 600px; 
   }
 }
+
+
+
 .projects-name {
   color: #2e2f42;
   font-family: Roboto;
